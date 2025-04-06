@@ -66,7 +66,7 @@ while running:
                 score += 1
 
     # Відображення об'єктів
-    pygame.draw.rect(screen, GREEN, bird)
+    pygame.draw.rect(screen, BLUE, bird)
     screen.blit(bird_image, (bird.x-8, bird.y-8))
     for pipe in pipes:
         pygame.draw.rect(screen, GREEN, pipe)

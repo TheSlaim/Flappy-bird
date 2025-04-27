@@ -16,8 +16,6 @@ GREEN = (0, 255, 0)
 
 # Гравець
 bird_image = pygame.image.load('images/bird.png')
-wall_image = pygame.image.load('images/wall.png')
-background_image = pygame.image.load('images/background.png')
 bird = pygame.Rect(100, HEIGHT // 2, 30, 30)
 gravity = 0
 jump = -10
